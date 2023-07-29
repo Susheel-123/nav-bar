@@ -10,8 +10,52 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-    <div class="nav">its navigation</div>
+    <!--header-->
+    <header class="header"></header>
+         <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <i class="ri-code-s-slash-fill"></i> codebox
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+            <!--=======nav menu==========-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#" class="nav__link">home</a>
+                    </li>
+                     <!--=======dropdown 1==========-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Discover <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+                    </li>
+                    <!--=======dropdown 2==========-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Resources <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Pricing</a>
+                    </li>
+                     <!--=======dropdown 3==========-->
+                     <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Company <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+                    </li>
+                </ul>
+                   
+            </div>
+        </nav>
+    </header>    
     
 </body>
-<script src="index.js"></script>
+<!-- script-->
+<script src="main.js"></script>
 </html>
